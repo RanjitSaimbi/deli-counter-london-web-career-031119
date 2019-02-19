@@ -4,7 +4,8 @@ def line(queue)
   else 
     newArray = []
     queue.each_with_index { |name, index|
-    puts "The line is currently: #{index+1}. #{name} "
+    newArray << "#{index+1}. #{name} "
     }
+    puts "The line is currently: #{newArray}"
   end 
 end 
