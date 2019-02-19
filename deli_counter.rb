@@ -16,5 +16,10 @@ def take_a_number(queue, name)
 end 
 
 def now_serving(queue) 
-  
+  if queue.length == 0 
+    puts "The line is currently empty." 
+  else 
+    puts "Currently serving #{queue[0]}."
+    
+  end 
 end 
