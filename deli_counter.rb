@@ -13,7 +13,4 @@ end
 def take_a_number(queue, name)
   newQueue = queue << name 
    puts "Welcome, #{name}. You are number #{newQueue.length} in line." 
-    }
-end 
-
 end 
