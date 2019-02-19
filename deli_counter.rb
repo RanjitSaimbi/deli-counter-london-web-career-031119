@@ -9,3 +9,6 @@ def line(queue)
     puts "The line is currently: #{newArray.join(' ')}"
   end 
 end 
+
+def take_a_number(queue, name)
+  newQueue = queue << name  
