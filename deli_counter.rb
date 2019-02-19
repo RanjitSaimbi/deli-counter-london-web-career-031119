@@ -1,5 +1,6 @@
 def line(queue)
-  puts "The line is currently empty." if queue.length == 0 
+  if queue.length == 0 
+  puts "The line is currently empty." 
   else 
     newArray = []
     queueeach_with_index { |name, index|
