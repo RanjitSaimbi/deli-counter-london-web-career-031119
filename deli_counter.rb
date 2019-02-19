@@ -5,7 +5,8 @@ def line(queue)
     newArray = []
     queue.each_with_index { |name, index|
     newArray << "#{index+1}. #{name} "
+    stringArray = newArray.join(', ')
     }
-    puts "The line is currently: #{newArray}"
+    puts "The line is currently: #{stringArray}"
   end 
 end 
