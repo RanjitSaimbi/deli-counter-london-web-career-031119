@@ -20,6 +20,6 @@ def now_serving(queue)
     puts "The line is currently empty." 
   else 
     puts "Currently serving #{queue[0]}."
-    
+    queue.
   end 
 end 
