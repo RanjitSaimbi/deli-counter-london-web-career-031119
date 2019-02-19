@@ -1,6 +1,4 @@
 def line(queue)
-  if queue.size == 0 
-    return "The line is currently empty." 
-  end 
+  return "The line is currently empty." if queue.length == 0 
   
 end 
