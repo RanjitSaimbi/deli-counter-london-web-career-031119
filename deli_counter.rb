@@ -11,4 +11,9 @@ def line(queue)
 end 
 
 def take_a_number(queue, name)
-  newQueue = queue << name  
+  newQueue = queue << name 
+  newQueue.each_with_index { |name, index|
+   puts "Welcome, #{name}. You are number #{index + 1} in line." 
+    }
+  end 
+end 
